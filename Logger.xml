@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<configuration version="1.0">
+    <enable>1</enable>
+    <size>10240</size>
+    <path>Logs</path>
+    <depth>MODULE</depth>
+    <mode>SYNC</mode>
+    <type>TXT</type>
+    <level>FATAL | CRITICAL | ERROR | WARNING | INFO | TRACE</level>
+    <fields>
+        <time>1</time>
+        <time_format>0</time_format>
+        <time_started>0</time_started>
+        <pid>0</pid>
+        <tid>1</tid>
+        <process_name>0</process_name>
+        <module_name>1</module_name>
+        <level_name>1</level_name>
+        <function_name>1</function_name>
+        <text>1</text>
+    </fields>
+</configuration>
